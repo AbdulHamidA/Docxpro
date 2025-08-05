@@ -1,0 +1,36 @@
+{
+  "name": "docx-templater-pro",
+  "version": "1.0.0",
+  "description": "A comprehensive Node.js library for document templating with DOCX, PPTX, and XLSX support, including all advanced features",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "example": "node examples/basic-example.js"
+  },
+  "keywords": [
+    "docx",
+    "pptx", 
+    "xlsx",
+    "template",
+    "document",
+    "generation",
+    "office",
+    "word",
+    "powerpoint",
+    "excel"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "qrcode": "^1.5.4",
+    "xml2js": "^0.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manus-ai/docx-templater-pro"
+  }
+}
