@@ -1,0 +1,34 @@
+{
+  "name": "@new-templater/core",
+  "version": "1.0.0",
+  "description": "Core library for modular document templating in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
+  "keywords": [
+    "docx",
+    "pptx",
+    "xlsx",
+    "template",
+    "core",
+    "modular"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
+
+

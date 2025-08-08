@@ -1,0 +1,30 @@
+{
+  "name": "@new-templater/html-module",
+  "version": "1.0.0",
+  "description": "HTML module for @new-templater/core, enabling HTML content insertion into documents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
+  "keywords": [
+    "docx",
+    "html",
+    "module",
+    "templating"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "@new-templater/core": "^1.0.0",
+    "node-html-parser": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.1"
+  }
+}
